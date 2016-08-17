@@ -1,0 +1,131 @@
+
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+body {
+  margin: 0;
+  /*background-color: #333;*/
+  background-color: #fafafa;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+
+}
+
+img {
+  max-width:90%;
+
+
+ }
+
+.profile {
+   max-width: 65%;
+   margin-top: 50px;
+   margin-bottom: 30px;
+ }
+
+ .avatar img{
+   height: 130px;
+   border-radius: 50%;
+   margin: 35px auto;
+ }
+
+.avatar {
+  margin: 30px auto;
+  background-color: #f2f2f2;
+  width: 80%;
+  height: 200px;
+  max-width: 313px;
+/*#6596b8*/
+}
+
+ .about {
+   margin-top: 25px;
+   line-height: 140%;
+ }
+
+ ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+
+ nav {
+   max-width: 90%;
+   margin: 0 auto;
+}
+a:hover {
+  color: orange;
+}
+a:active {
+color: #e56601;
+}
+
+h1, h2, h3, li {
+  color: #575757;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+ .about, p {
+   /*background-color: #333;*/
+   font-size: 18px;
+   font-weight: 300;
+   color: #8c8c8c;
+   max-width: 90%;
+   margin: 0 auto;
+   /*padding-left: 1.5em;*/
+   /*padding-right: 1.5em;*/
+   padding-bottom: 1.5em;
+   line-height: 140%;
+
+ }
+
+ #portfolio {
+   background-color: #fff;
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+
+
+ #contact {
+   padding-top: 50px;
+ }
+
+
+ a {
+  color: #656a6e;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+
+
+li {
+  background-color: #fff;
+  margin-bottom: 4px;
+}
+
+
+footer {
+  max-width: 90%;
+  margin: 50px auto 10px;
+  border-top: 1px solid #d6d6d6;
+  padding-top: 20px;
+}
+
+footer p, footer p a {
+  display: inline;
+  float: left;
+  color: #575757;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+footer .return {
+  float:right;
+
+}
