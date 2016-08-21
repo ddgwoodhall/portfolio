@@ -78,10 +78,20 @@ img {
   max-width: 100%;
 }
 
+/**************************
+footer
+***************************/
+.return {
+  display: none;
+}
 
-
-
-
+#bottom-nav {
+  display:inline-block;
+  float: right;
+}
+#bottom-nav ul{
+  margin-right: -15px;
+}
 }
 
 
@@ -134,6 +144,9 @@ margin: 0 auto;
   clear: none;
 }
 
+#bottom-nav {
+  margin-top: 0;
+}
 
 
 

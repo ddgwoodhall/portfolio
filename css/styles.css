@@ -3,9 +3,7 @@
 
 body {
   margin: 0;
-  /*background-color: #333;*/
   background-color: #fafafa;
-  /*font-family: Helvetica, Arial, sans-serif;*/
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
 
@@ -35,7 +33,6 @@ img {
   width: 80%;
   height: 200px;
   max-width: 313px;
-/*#6596b8*/
 }
 
  .about {
@@ -52,6 +49,11 @@ img {
  nav {
    max-width: 90%;
    margin: 0 auto;
+}
+
+nav a {
+  font-weight: bold;
+  font-size: 25px;
 }
 a:hover {
   color: orange;
@@ -70,14 +72,11 @@ h2 {
 }
 
  .about, p {
-   /*background-color: #333;*/
    font-size: 18px;
    font-weight: 300;
    color: #8c8c8c;
    max-width: 90%;
    margin: 0 auto;
-   /*padding-left: 1.5em;*/
-   /*padding-right: 1.5em;*/
    padding-bottom: 1.5em;
    line-height: 140%;
 
@@ -88,6 +87,7 @@ h2 {
    padding-top: 50px;
    padding-bottom: 50px;
  }
+
 
 
  #contact {
@@ -123,6 +123,12 @@ footer p, footer p a {
   font-weight: 600;
   font-size: 16px;
 }
+
+#bottom-nav {
+  display: none;
+}
+
+
 
 
 footer .return {
